@@ -55,7 +55,7 @@ setInterval(async () => {
   } catch (error) {
     console.error("Error making request to /:", error.message);
   }
-}, 10 * 60 * 1000);
+}, 13 * 60 * 1000);
 // Make every server-side-route to match the index.html
 // so when requesting http://localhost:3030/index.html/station/123 it will still respond with
 // our SPA (single page app) (the index.html file) and allow vue/react-router to take it from there
